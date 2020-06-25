@@ -6,7 +6,7 @@
 :root {
     --dark:#1a1a1a;
     --white: #ffffff;
-    --light-grey: #efefef;
+    --light-gray: #efefef;
     --gold: #ecd5a7;
 }
 
@@ -37,8 +37,8 @@ a:hover {
     background-color: var(--white) !important;
 }
 
-.bg-light-grey {
-    background-color: var(--light-grey);
+.bg-light-gray {
+    background-color: var(--light-gray);
 }
 
 .bg-dark {
@@ -54,9 +54,9 @@ a:hover {
 }
 
 .text-gold {
-    color: var(--gold) !important;
+    color: var(--gold) ;
 }
-
+/*
 .btn {
     padding: .5rem 1.8rem;
     border-radius: .2rem;
@@ -73,13 +73,13 @@ a:hover {
     color: var(--dark);
     border-color: var(--dark);
 }
-
-.btn-secondary {
+*/
+.btn-dark {
     background-color: var(--dark);
 }
 
 .btn-gold {
-    background-color: var(--gold);
+    background-color: var(--gold) ;
     color: var(--dark);
 }
 
@@ -102,11 +102,11 @@ a:hover {
     text-transform: uppercase;
     color: var(--white);
 }
-/*
+
 .navbar-toggler {
     color: var(--white);
 }
-*/
+
 .badge {
     font-weight: 500;
     padding: .5rem 1.5rem;
@@ -139,10 +139,7 @@ section {
     border: 1px solid var(--dark);
 }
 
-@media (max-width: 575.98px) {
-    #slider h3 {
-        font-size: 1.2rem;
-    } 
+@media (max-width: 767px) {
     footer {
         text-align: center;
     }
